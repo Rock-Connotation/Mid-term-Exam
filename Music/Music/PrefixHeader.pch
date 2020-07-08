@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  Music
+//
+//  Created by 石子涵 on 2020/5/23.
+//  Copyright © 2020 石子涵. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//获取屏幕宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHight [UIScreen mainScreen].bounds.size.height
+
+#define kScaleW kScreenWidth/375.0
+#define kScaleH  (kScreenHight/667.0)
+
+#define BannerAPI @"http://47.99.165.194/album/newest" //Banner接口
+#define AlBUMAPI @"http://47.99.165.194/album?id=88627345" //专辑详情接口
+#define SONGSHEEtAPI @"http://47.99.165.194/top/playlist?cat=华语&limit=20" //推荐歌单
+#define MyLibraryAPI @"http://47.99.165.194/user/playlist?uid=356985593&limit=20" //我的歌单
+#define MyInformationAPi @"http://47.99.165.194/user/detail?uid=356985593" //个人信息
+#endif /* PrefixHeader_pch */
+ 

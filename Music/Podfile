@@ -1,0 +1,7 @@
+target 'Music' do
+ pod 'Masonry'
+ pod 'AFNetworking'
+ pod 'SDWebImage'
+
+source 'https://github.com/CocoaPods/Specs.git'
+end
